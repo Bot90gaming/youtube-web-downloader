@@ -21,6 +21,6 @@
     "fluent-ffmpeg": "^2.1.3",
     "gsap": "^3.12.5",
     "pm2": "^5.4.2",
-    "ytdlp-nodejs": "^1.2.0"
+    "ytdlp-nodejs": "^2.3.5"
   }
 }

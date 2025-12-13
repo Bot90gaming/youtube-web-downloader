@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Downloader Pro</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Video Downloader Pro</h1>
+        <button id="theme-toggle">🌙 Dark Mode</button>
+    </header>
+    <main>
+        <section class="input-section">
+            <input type="text" id="url-input" placeholder="Enter video URL (YouTube, TikTok, etc.)">
+            <button id="fetch-info-btn">Fetch Options</button>
+            <select id="format-select" disabled>
+                <option value="">Select Format</option>
+            </select>
+            <select id="resolution-select" disabled>
+                <option value="">Select Resolution</option>
+            </select>
+            <button id="download-btn" disabled>Download</button>
+            <div id="error-message"></div>
+            <div id="success-message"></div>
+            <div id="preview-panel"></div>
+            <div id="loading-indicator" class="hidden">Loading...</div>
+        </section>
+        <section id="advanced-options" class="collapsible hidden">
+            <h3>Advanced Options</h3>
+            <label><input type="checkbox" id="merge-audio-video">Merge best audio/video if separate</label>
+        </section>
+    </main>
+    <footer>
+        <p>Supports: YouTube, TikTok, Instagram, Vimeo | Upgraded by Grok</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
